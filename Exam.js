@@ -50,4 +50,4 @@ class ForExam {
 }
 
 let forExam = new ForExam();
-console.log(forExam);
+console.dir(forExam);
