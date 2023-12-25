@@ -1,7 +1,10 @@
 class ForExam {
-
+  //! 클래스 문법을 사용함.
   constructor() {
+    //! cpnstructor 클래스와 객체를 다룰 때 사용되며, 객체의 상태를 초기화하거나 필수 속성을 설정하는 역할을 함.
     this.initData()
+    //! this를 사용한 initData 함수를 가르킨다.
+    //? this란 객체를 가리킬 때 쓰이는 함수나 메서드를 가르킬 떄 쓰인다.
   }
 
   initData() {
@@ -47,4 +50,4 @@ class ForExam {
 }
 
 let forExam = new ForExam();
-console.dir(forExam);
+console.log(forExam);
